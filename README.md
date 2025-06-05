@@ -12,8 +12,6 @@ This repository contains my solutions to popular LeetCode problems and common co
 /dynamic-programming
 
 ```
-...
-
 
 📈 Progress Tracker
 Topic	Status
