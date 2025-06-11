@@ -3,7 +3,7 @@
 
 function moveZeroes(nums) {
     let n = nums.length;
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n - 1; i++) {
         if (nums[i] === 0) {
             for (let j = i + 1; j < n; j++) nums[j - 1] = nums[j];
             nums[n - 1] = 0;
