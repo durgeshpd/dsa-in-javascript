@@ -7,6 +7,8 @@ function moveZeroes(nums) {
         if (nums[i] === 0) {
             for (let j = i + 1; j < n; j++) nums[j - 1] = nums[j];
             nums[n - 1] = 0;
+            n--;
+            i--;
         }
     }
     return nums;
