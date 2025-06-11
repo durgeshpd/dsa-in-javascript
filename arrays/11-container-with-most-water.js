@@ -7,7 +7,7 @@ function maxArea(height) {
 
     for (let i = 0; i < height.length; i++) {
         for (let j = i + 1; j < height.length; j++) {
-            let water = (j - 1) * Math.min(height[i], height[j]);
+            let water = (j - i) * Math.min(height[i], height[j]);
             maxWater = Math.max(maxWater, water);
         }
     }
